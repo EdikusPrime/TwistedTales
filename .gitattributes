@@ -2,3 +2,5 @@
 uproject filter=lfs diff=lfs merge=lfs -text
 *.uproject filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.ddc filter=lfs diff=lfs merge=lfs -text
