@@ -1,0 +1,391 @@
+{
+	"TargetName" : "TwistedTales",
+	"Platform" : "Win64",
+	"Configuration" : "Shipping",
+	"BuildId" : "cfc16c00-5340-4774-8a21-6ae464d47372",
+	"Version" : 
+	{
+		"MajorVersion" : 4,
+		"MinorVersion" : 15,
+		"PatchVersion" : 3,
+		"Changelist" : 0,
+		"CompatibleChangelist" : 3299760,
+		"IsLicenseeVersion" : 0,
+		"IsPromotedBuild" : 1,
+		"BranchName" : ""
+	},
+	"BuildProducts" :
+	[
+		{
+			"Path" : "$(ProjectDir)/Binaries/Win64/TwistedTales-Win64-Shipping.exe",
+			"Type" : "Executable"
+		},
+		{
+			"Path" : "$(ProjectDir)/Binaries/Win64/TwistedTales-Win64-Shipping.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/TwistedTales-Paper2D-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/TwistedTales-LightPropagationVolumeRuntime-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Editor/FacialAnimation/Binaries/Win64/TwistedTales-FacialAnimation-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/CharacterAI/Binaries/Win64/TwistedTales-CharacterAI-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/HTML5Networking/Binaries/Win64/TwistedTales-HTML5Networking-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/StereoPanorama/Binaries/Win64/TwistedTales-StereoPanorama-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/AndroidMedia/Binaries/Win64/TwistedTales-AndroidMediaFactory-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/AvfMedia/Binaries/Win64/TwistedTales-AvfMediaFactory-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/MfMedia/Binaries/Win64/TwistedTales-MfMedia-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/MfMedia/Binaries/Win64/TwistedTales-MfMediaFactory-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/WmfMedia/Binaries/Win64/TwistedTales-WmfMedia-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/WmfMedia/Binaries/Win64/TwistedTales-WmfMediaFactory-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Messaging/TcpMessaging/Binaries/Win64/TwistedTales-TcpMessaging-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/TwistedTales-UdpMessaging-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystem/Binaries/Win64/TwistedTales-OnlineSubsystem-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/TwistedTales-OnlineSubsystemNull-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/TwistedTales-OnlineSubsystemUtils-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/TwistedTales-ArchVisCharacter-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/CableComponent/Binaries/Win64/TwistedTales-CableComponent-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/TwistedTales-CustomMeshComponent-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/TwistedTales-ExampleDeviceProfileSelector-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/Binaries/Win64/TwistedTales-GearVR-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/TwistedTales-LocationServicesBPLibrary-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/TwistedTales-MobilePatchingUtils-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusInput/Binaries/Win64/TwistedTales-OculusInput-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusLibrary/Binaries/Win64/TwistedTales-OculusLibrary-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusRift/Binaries/Win64/TwistedTales-OculusRift-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/PhysXVehicles/Binaries/Win64/TwistedTales-PhysXVehicles-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/TwistedTales-ProceduralMeshComponent-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/TwistedTales-SteamVR-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/TwistedTales-SteamVRController-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/TwistedTales-WindowsMoviePlayer-Win64-Shipping.lib",
+			"Type" : "StaticLibrary"
+		}
+	],
+	"RuntimeDependencies" :
+	[
+		{
+			"Path" : "$(ProjectDir)/TwistedTales.uproject",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/2D/Paper2D/Paper2D.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Editor/FacialAnimation/FacialAnimation.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/CharacterAI/CharacterAI.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/AvfMedia/AvfMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/MfMedia/MfMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/WmfMedia/WmfMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/CableComponent/CableComponent.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/GearVR.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/LocationServicesBPLibrary.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusInput/OculusInput.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/OculusRift/OculusRift.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Content/Slate/...",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(ProjectDir)/Content/Slate/...",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxFoundation_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxFoundation_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxPvdSDK_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxPvdSDK_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3Cooking_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3Cooking_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3Common_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3Common_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxFoundation_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PxPvdSDK_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Clothing_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Clothing_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Destructible_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Destructible_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Legacy_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_Legacy_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/ApexFramework_x64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/ApexFramework_x64.pdb",
+			"Type" : "DebugNonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/Oculus/OculusMobile/SDK_1_0_3/Win64/VrApiShim.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/OpenVR/OpenVRv1_0_2/Win64/openvr_api.dll",
+			"Type" : "NonUFS"
+		}
+	]
+}
