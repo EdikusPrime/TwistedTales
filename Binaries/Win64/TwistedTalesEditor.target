@@ -7,9 +7,9 @@
 	{
 		"MajorVersion" : 4,
 		"MinorVersion" : 15,
-		"PatchVersion" : 3,
+		"PatchVersion" : 0,
 		"Changelist" : 0,
-		"CompatibleChangelist" : 3299760,
+		"CompatibleChangelist" : 0,
 		"IsLicenseeVersion" : 0,
 		"IsPromotedBuild" : 1,
 		"BranchName" : ""
@@ -642,18 +642,6 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ExampleDeviceProfileSelector.lib",
-			"Type" : "ImportLibrary"
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/Binaries/Win64/UE4Editor-GearVR.dll",
-			"Type" : "DynamicLibrary"
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/Binaries/Win64/UE4Editor-GearVR.pdb",
-			"Type" : "SymbolFile"
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-GearVR.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
@@ -4485,10 +4473,6 @@
 			"Type" : "RequiredResource"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/Binaries/Win64/UE4Editor.modules",
-			"Type" : "RequiredResource"
-		},
-		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor.modules",
 			"Type" : "RequiredResource"
 		},
@@ -4696,10 +4680,6 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/GearVR.uplugin",
-			"Type" : "UFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/LocationServicesBPLibrary.uplugin",
 			"Type" : "UFS"
 		},
@@ -4760,18 +4740,6 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_crypto_openssl-1.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_dbd_odbc-1.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_dbm_db-1.dll",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_ldap-1.dll",
 			"Type" : "NonUFS"
 		},
@@ -4804,19 +4772,11 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libdb62.dll",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libeay32.dll",
 			"Type" : "NonUFS"
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsasl.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libserf-1.dll",
 			"Type" : "NonUFS"
 		},
 		{
@@ -4852,14 +4812,6 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvn_swig_perl-1.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvn_swig_py-1.dll",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvn_wc-1.dll",
 			"Type" : "NonUFS"
 		},
@@ -4892,10 +4844,6 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/saslOTP.dll",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/saslPLAIN.dll",
 			"Type" : "NonUFS"
 		},
@@ -4908,15 +4856,15 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/saslSRP.dll",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/ssleay32.dll",
 			"Type" : "NonUFS"
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svn-populate-node-origins-index.exe",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svn-rep-sharing-stats.exe",
 			"Type" : "NonUFS"
 		},
 		{
@@ -4936,15 +4884,7 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svnbench.exe",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svndumpfilter.exe",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svnfsfs.exe",
 			"Type" : "NonUFS"
 		},
 		{
@@ -4973,6 +4913,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/svnversion.exe",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/uninst.exe",
 			"Type" : "NonUFS"
 		},
 		{
@@ -5764,6 +5708,10 @@
 			"Type" : "NonUFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/iconv/svn-book.pdf",
+			"Type" : "NonUFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/iconv/ucs2-internal.so",
 			"Type" : "NonUFS"
 		},
@@ -5828,19 +5776,7 @@
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/APR-Iconv.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/APR-Util.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/APR.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/Berkeley-DB.license",
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/APR_and_Serf.license",
 			"Type" : "NonUFS"
 		},
 		{
@@ -5848,27 +5784,15 @@
 			"Type" : "NonUFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/Neon.license",
+			"Type" : "NonUFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/OpenSSL.license",
 			"Type" : "NonUFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/Serf.license",
-			"Type" : "NonUFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/Subversion.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/Swig.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/ZLib.license",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/Oculus/OculusMobile/SDK_1_0_3/Win64/VrApiShim.dll",
 			"Type" : "NonUFS"
 		},
 		{
@@ -5977,10 +5901,6 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuio53.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.dll",
 			"Type" : "NonUFS"
 		},
 		{
