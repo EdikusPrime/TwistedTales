@@ -33,6 +33,18 @@
 			"Type" : "SymbolFile"
 		},
 		{
+			"Path" : "$(ProjectDir)/Plugins/LoadingScreen/Binaries/Win64/UE4Editor-LoadingScreen.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/LoadingScreen/Binaries/Win64/UE4Editor-LoadingScreen.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/LoadingScreen/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-LoadingScreen.lib",
+			"Type" : "ImportLibrary"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type" : "DynamicLibrary"
 		},
@@ -4329,6 +4341,10 @@
 			"Type" : "ImportLibrary"
 		},
 		{
+			"Path" : "$(ProjectDir)/Plugins/LoadingScreen/Binaries/Win64/UE4Editor.modules",
+			"Type" : "RequiredResource"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type" : "RequiredResource"
 		},
@@ -4533,6 +4549,10 @@
 	[
 		{
 			"Path" : "$(ProjectDir)/TwistedTales.uproject",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(ProjectDir)/Plugins/LoadingScreen/LoadingScreen.uplugin",
 			"Type" : "UFS"
 		},
 		{
