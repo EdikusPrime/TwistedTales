@@ -2,7 +2,7 @@
 	"TargetName" : "TwistedTalesEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "",
+	"BuildId" : "52b19b30-7826-40d8-afcb-be06e73c9f89",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -570,6 +570,18 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemNull/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-OnlineSubsystemNull.lib",
+			"Type" : "ImportLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor-OnlineSubsystemSteam.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-OnlineSubsystemSteam.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
@@ -4465,6 +4477,10 @@
 			"Type" : "RequiredResource"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/Binaries/Win64/UE4Editor.modules",
+			"Type" : "RequiredResource"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor.modules",
 			"Type" : "RequiredResource"
 		},
@@ -4673,6 +4689,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -5865,6 +5885,14 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/ZLib.license",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/Steamworks/Steamv132/Win64/steam_api64.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Config/controller.vdf",
 			"Type" : "NonUFS"
 		},
 		{
